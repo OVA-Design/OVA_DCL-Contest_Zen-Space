@@ -1,21 +1,11 @@
 import {
-    MeshCollider,
     Transform,
     engine,
-    InputAction,
     Material,
     MeshRenderer,
-    VisibilityComponent,
     VideoPlayer,
-    PointerEventType,
-    inputSystem,
-    pointerEventsSystem,
-    Texture,
-    MaterialTransparencyMode,
-    VideoTexture
   } from '@dcl/sdk/ecs'
   import { Quaternion, Vector3, Color4, Color3 } from '@dcl/sdk/math'
-  import * as utils from '@dcl-sdk/utils'
 
 export function waterSetup() {
     // water fall
